@@ -1,21 +1,19 @@
 'use strict'
-// Global
 
-// variables
-
-// var random = Math.floor(Math.random() * (max - min + 1) + min);
-
-// arrays
 var hours = ['6am','7am','8am','9am','10am','11am','12pm','1pm','2pm','3pm','4pm','5pm','6pm','7pm'];
 
-
-
-
 // Functions
-function custRandom(min, max) {
-  var min = Math.floor(min);
-  var max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1) + min);
+// function custRandom(min, max) {
+//   var min = Math.floor(min);
+//   var max = Math.floor(max);
+//   return Math.floor(Math.random() * (max - min + 1) + min);
+
+  
+// }
+
+function custRandom(custMin, custMax) {
+  var custRandom = Math.random() * (custMax - custMin +1) + custMin;
+  return Math.floor(custRandom);
 }
 
 var seattle = {
@@ -25,6 +23,7 @@ var seattle = {
   salesPerHr: [],
   avgCookie: 6.3
 };
+
 
 var tokyo = {
   name: 'Tokyo',
@@ -83,7 +82,6 @@ for(var i = 0; i < cities.length; i++){
   function totalCookies(){
 
 }
-
 
   var totalLI = document.createElement('li');
   totalLI.textContent = `Total: I need to fix this logic`;
