@@ -79,12 +79,13 @@ for(var i = 0; i < cities.length; i++){
     //adds each itteration of the <li> and its contents to be the last child of the <ul>
     newCityUl.appendChild(hourLI);
   }
-  function totalCookies(){
-
-}
-
+  var total = 0;
+  for (var i = 0; i < this.salesPerHr.length; i++){
+    total += this.salesPerHr[i];
+  }
+  console.log('Total:', total);
   var totalLI = document.createElement('li');
-  totalLI.textContent = `Total: I need to fix this logic`;
+  totalLI.textContent = `Total: ${total}`;
   newCityUl.appendChild(totalLI);
   // console.log(totalLI);
   cityArticle.appendChild(newCityUl);
