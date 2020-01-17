@@ -136,3 +136,10 @@ paris.render();
 lima.render();
 console.log(citiesArray);
 createSalesTableFooter();
+
+var meows = true;
+while (meows = true) {
+  console.log('MEOW!');
+  meow = false;
+}
+console.log('Sorry, no meowing allowed.');
