@@ -29,7 +29,17 @@ Store.prototype.generateSales = function() {
     this.salesPerHr.push(cookieSales);
   }
 console.log(store);
-// };
+};
+
+Store.prototype.render = function(){
+  var table = document.getElementById('sales-table');
+  var salesTable = document.createElement('table');
+  var headerRow = document.createElement('tr');
+  var tableHeader = document.createElement('th');
+  tableHeader.textContent = 'This is a test';
+  headerRow.appendChild(tableHeader);
+  table.appendChild(headerRow);
+
 // Store.prototype.render = function(){
 //   var table = document.getElementById('sales table');
 //   var salesTable = document.createElement('table');
@@ -57,8 +67,8 @@ console.log(store);
 }
 
 
-this.generateSales();
-this.render();
+// this.generateSales();
+// this.render();
 
 // **** Instantiations **** //
 var seattle = new Store('Seattle', 23, 65, 6.3);
