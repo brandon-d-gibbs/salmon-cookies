@@ -1,4 +1,143 @@
+/*   ****    Elements    ****     */
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 2.5em;
+}
+h3 {
+  font-size: 1.7em;
+}
+
+li:hover {
+  cursor: pointer;
+  color: white;
+}
+
+
+footer {
+  /* position: absolute; */
+  height:350px;
+  background-color: black;
+  width: 100%;
+  position:absolute;
+    bottom:0;
+}
+
+footer ul {
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 125px;
+  margin-left: 50px;
+}
+
+footer ul li {
+  color: salmon;
+}
+
+/*   ****    IDs    ****     */
 #logo  {
-  size: 200px;
+  height: 100px;
+  width: auto;
+  margin: auto;  
+}
+
+#top-bar{
+  background: #333;
+  padding: 7px;
+}
+
+#nav {
+  background: #333;
+  padding: 7px;
+}
+
+/*   ****    Classes / elements targeted through classes  ****     */
+.top-links {  
+  list-style-type: none;
+  text-decoration: none;
+  color: salmon;
+  font-size: 1.4rem;
+  float:right;
+  
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 25px;
+  position: realtive;
+  margin-top: 15px;
+}
+
+.promo {
+  /* visibility: hidden; */
+  /* position: absolute; */
+  width: 100%;
+  clear: both;
+  height: 35px;
+  background-color: lightcoral;
+  text-align: center;
+  margin-top: -3px;
+  margin-bottom: 100px;
+  
+  margin-left: -7px;
+  margin-right: -7px;
+  padding-top: 15px; */
+  margin-top: -10px;
+}
+
+.promo p {
+  position: relative;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.logo-wrapper div {
+  width: 960;
   margin: auto;
 }
+/* 
+.nav-wrapper {
+  height: 175px;
+  background-color: #333;
+} */
+
+
+
+
+
+
+
+
+
+
+
+.footer-content-left {
+  width: 250px;
+  float: left;
+  margin: auto;
+}
+
+.footer-content-left li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.footer-content-right {
+  width: 70%;
+  margin: auto;
+  align-items: center;
+}
+
+.logo-footer {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 90px;
+  margin-bottom: -50px;
+}
+
+
+
+
+

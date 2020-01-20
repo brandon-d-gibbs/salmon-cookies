@@ -1,0 +1,52 @@
+body {
+  background-color: salmon;
+}
+
+h3{
+  font-size: 1.4rem;
+  color: white;
+}
+
+form {
+  padding: 40px;
+  background-color: rgb(73, 66, 66);
+  width: 550px;
+}
+
+
+fieldset {
+  border: none;
+}
+
+form label {
+  color: white;
+  font-size: 1.3rem;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form input {
+  display: block;
+  height: 30px;
+  width: 300px;
+  margin: auto;
+  margin-top: 7px;
+  margin-bottom: 14px;
+}
+
+.submit-button {
+  margin-top: 25px;
+  height: 50px;
+  width: 250px;
+  border-radius: 5px;
+}
+
+#sales-table {
+  width: 960px;
+  background-color: white;
+  margin: auto;
+  font-size: 1.3rem;
+  line-height: 1.2em;
+}
