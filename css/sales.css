@@ -1,5 +1,5 @@
 body {
-  background-color: salmon;
+  background-color: rgb(6, 37, 6);
 }
 
 h3{
@@ -21,6 +21,11 @@ nav ul{
   float: right;
   margin-top: 7px;
   
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 nav a li {
@@ -45,6 +50,8 @@ form {
   padding: 40px;
   background-color: rgb(73, 66, 66);
   width: 550px;
+  margin: auto;
+  margin-bottom: 40px;
 }
 
 
@@ -79,6 +86,7 @@ form input {
 
 #sales-table {
   width: 960px;
+  margin-top: 40px;
   background-color: white;
   margin: auto;
   font-size: 1.3rem;
