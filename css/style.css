@@ -1,6 +1,11 @@
-/*   ****    Elements    ****     */
+body{
+  background-color: rgb(6, 37, 6);
+  color: rgb(223, 223, 223);
+  font-size: 1.2rem;
+}
+
 h1 {
-  font-size: 4em;
+  font-size: 4rem;
 }
 h2 {
   font-size: 2.5em;
@@ -8,136 +13,134 @@ h2 {
 h3 {
   font-size: 1.7em;
 }
+nav {
+  background-color: salmon;
+}
+
+#navLogo {
+  width: 150px;
+  margin: 14px;
+  display: inline-block;
+}
+
+nav ul{
+  float: right;
+  margin-top: 7px;
+  
+}
+
+nav li {
+  display: inline;
+  position: relative;
+  text-decoration: none;
+  float: right;
+  margin: 21px;
+  margin-right: 28px;
+}
+
+nav li::after{
+  clear: both;
+}
 
 li:hover {
   cursor: pointer;
   color: white;
 }
 
+main {
+  width: 960px;
+  /* height: 100vh; */
+  margin: auto;
+}
+
+#familySection{
+  position: relative;
+  width: 960px;
+  margin: 40px auto;
+
+}          
+
+#aboutFamily {
+  margin: 40px;
+}
+
+
+#patsFamily {
+  width: 450px;
+  margin-right: 14px;
+  display: inline;
+  float: left;
+}
+
+#aboutFamily {
+  display: inline;
+  float: right;
+}
+
+
+.actionImages {
+  height: 30%;
+  width: 50%;
+  border-radius: 50%;
+  border: 1px solid darkgrey;
+}
+
+#actionRow {
+  width: 960px;
+  margin: auto;
+}
+
+.actionContainer {
+  width: 20%;
+  float: left;
+  padding: 5px;
+  margin: 45px;
+}
+
+.actionText {
+  text-align: center;
+}
+
+#actionRow::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#locationsContainer{
+  width: 960px;
+  margin-left: 14%;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+#locationsSection{
+  margin: 30px;
+}
+
+#locationsContainer h3{
+   margin-top: 14px;
+   margin-left: 30%;
+}
+
+.locations{
+  display: inline-block;
+  margin: 14px;
+  
+}
 
 footer {
-  /* position: absolute; */
-  height:350px;
-  background-color: black;
-  width: 100%;
-  position:absolute;
-    bottom:0;
-}
-
-footer ul {
-  display: inline-block;
-  list-style-type: none;
-  text-decoration: none;
-  margin-top: 125px;
-  margin-left: 50px;
-}
-
-footer ul li {
-  color: salmon;
-}
-
-/*   ****    IDs    ****     */
-#logo  {
-  height: 100px;
-  width: auto;
-  margin: auto;  
-}
-
-#top-bar{
-  background: #333;
-  padding: 7px;
-}
-
-#nav {
-  background: #333;
-  padding: 7px;
-}
-
-/*   ****    Classes / elements targeted through classes  ****     */
-.top-links {  
-  list-style-type: none;
-  text-decoration: none;
-  color: salmon;
-  font-size: 1.4rem;
-  float:right;
-  
-}
-
-.top-links li {
-  display: inline-block;
-  margin: 25px;
-  position: realtive;
-  margin-top: 15px;
-}
-
-.promo {
-  /* visibility: hidden; */
-  /* position: absolute; */
-  width: 100%;
-  clear: both;
-  height: 35px;
-  background-color: lightcoral;
+  background-color: salmon;
+  padding: 40px 325px;
   text-align: center;
-  margin-top: -3px;
-  margin-bottom: 100px;
-  
-  margin-left: -7px;
-  margin-right: -7px;
-  padding-top: 15px; */
-  margin-top: -10px;
 }
 
-.promo p {
-  position: relative;
-  color: white;
-  font-size: 1.3rem;
+.footerLinks li {
+  display: inline;
+  text-decoration: none;
+  margin: 7px;
 }
 
-.logo-wrapper div {
-  width: 960;
-  margin: auto;
+.footerLogo {
+  width: 150px;
+  margin: 14px;
 }
-/* 
-.nav-wrapper {
-  height: 175px;
-  background-color: #333;
-} */
-
-
-
-
-
-
-
-
-
-
-
-.footer-content-left {
-  width: 250px;
-  float: left;
-  margin: auto;
-}
-
-.footer-content-left li {
-  display: inline-block;
-  margin: 20px;
-}
-
-.footer-content-right {
-  width: 70%;
-  margin: auto;
-  align-items: center;
-}
-
-.logo-footer {
-  display: inline-block;
-  margin-left: 50px;
-  margin-top: 90px;
-  margin-bottom: -50px;
-}
-
-
-
-
-
