@@ -87,7 +87,7 @@ function createSalesTableFooter() {
       var newStore = new Store(name, minCust, maxCust, avgCookie);
       console.log('new store', newStore);
       citiesArray.push(newStore);
-      salesTable.appendChild(row);
+
     
   }
 
