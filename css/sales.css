@@ -7,6 +7,40 @@ h3{
   color: white;
 }
 
+nav {
+  background-color: salmon;
+}
+
+#navLogo {
+  width: 150px;
+  margin: 14px;
+  display: inline-block;
+}
+
+nav ul{
+  float: right;
+  margin-top: 7px;
+  
+}
+
+nav a li {
+  display: inline;
+  position: relative;
+  text-decoration: none;
+  float: right;
+  margin: 21px;
+  margin-right: 28px;
+}
+
+nav li::after{
+  clear: both;
+}
+
+li:hover {
+  cursor: pointer;
+  color: white;
+}
+
 form {
   padding: 40px;
   background-color: rgb(73, 66, 66);

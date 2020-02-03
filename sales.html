@@ -10,7 +10,18 @@
 </head>
 <body>
 
-<form>
+  <nav>
+    <img id = "navLogo" src="/img/salmon.png" />
+    
+    <ul>
+        <a href="index.html"><li>home</li></a>
+    </ul>
+    
+</nav>
+
+
+
+<form id="salesForm">
   <fieldset>
     <h3>Please Add the following information for your store</h3>
     <label>City Name: 
@@ -19,15 +30,15 @@
     
      
     <label>Min. Customers:
-    <input type="number" name="minCustomers">
+    <input type="number" name="minCust">
     </label> 
     
     <label>Max. Customers: 
-    <input type="number" name="maximumCustomers">
+    <input type="number" name="maxCust">
     <label>
 
     <label>Avg. Cookies Per Sale: 
-    <input type="number" name="avgCookiePerSale">
+    <input type="number" name="avgCookie">
     </label>
 
   <button class="submit-button" type = "submit">Add Store information</button>

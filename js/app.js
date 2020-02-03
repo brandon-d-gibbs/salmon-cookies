@@ -1,7 +1,6 @@
 'use strict'
 // Global Variables
 var hours = ['6am','7am','8am','9am','10am','11am','12pm','1pm','2pm','3pm','4pm','5pm','6pm','7pm'];
-
 var table = document.getElementById('sales-table');
 var salesTable = document.createElement('table');
 // table.appendChild(salesTable);
@@ -72,6 +71,25 @@ function createSalesTableFooter() {
   
   // console.log('grand', grandDailySales);
 
+
+  // Form and form event
+  var form = document.getElementById('salesForm');
+
+  form.addEventListener('submit', handleSubmit);
+
+  function handleSubmit(event) {
+      event.preventDefault();
+      var name = event.target.city.value;
+      var minCust = parseInt(event.target.minCust.value);
+      var maxCust = parseInt(event.target.maxCust.value);
+      var avgCookie = parseInt(event.target.avgCookie.value);
+  
+      var newStore = new Store(name, minCust, maxCust, avgCookie);
+      console.log('new store', newStore);
+      citiesArray.push(newStore);
+      salesTable.appendChild(row);
+    
+  }
 
 // Constructor Funciton
 function Store(name, minCust, maxCust, avgCookie) {
