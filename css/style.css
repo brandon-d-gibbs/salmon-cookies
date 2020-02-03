@@ -2,17 +2,23 @@ body{
   background-color: rgb(6, 37, 6);
   color: rgb(223, 223, 223);
   font-size: 1.1rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 h1 {
   font-size: 4rem;
+ 
 }
 h2 {
   font-size: 2.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(236, 149, 35);
+  text-align: center;
 }
 h3 {
   font-size: 1.7em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: salmon;
 }
 nav {
   background-color: salmon;
@@ -63,12 +69,14 @@ main {
 
 #aboutFamily {
   margin: 40px;
+  margin-top: 85px;
 }
 
 
 #patsFamily {
   width: 450px;
   margin-right: 14px;
+  
   display: inline;
   float: left;
 }
@@ -78,6 +86,9 @@ main {
   float: right;
 }
 
+#actionOutter {
+  background-color: rgb(177, 115, 0);  
+}
 
 .actionImages {
   height: 30%;
